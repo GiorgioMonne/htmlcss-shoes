@@ -6,7 +6,9 @@
     box-sizing: border-box;
 }
 
-
+body{
+    font-family: 'Rubik', sans-serif;
+}
 /* *****header***** */
 
 .link-main {
@@ -31,6 +33,7 @@
     border-radius: 50%;
     padding: 5px 10px;
     text-decoration: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 
@@ -87,7 +90,7 @@
     width: 500px;
     color: yellow;
     text-transform: uppercase; 
-    font-size: 25px;
+    font-size: 45px;
 }
 
 .testo-verde{
@@ -96,14 +99,9 @@
     height: 50px;
     width: 500px;
     text-transform: uppercase; 
-    font-size: 25px;
+    font-size: 45px;
+
 }
-
-
-
-
-
-
 
 /* *****footer***** */
 
