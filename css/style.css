@@ -6,16 +6,45 @@
     box-sizing: border-box;
 }
 
+
 /* *****header***** */
+
+.link-main {
+    /* background-color: grey;   */
+    text-align: center;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 2;
+    
+}
+
+.link-main nav ul li {
+    display: inline-block; 
+    padding: 10px;   
+}
+
+.link-main nav ul li a{
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
 
 /* *****main***** */
 
 .container {
     width: 100%;
     margin: 0 auto;
+
 }
 
 .box {
+    z-index: 1;
+    position: relative;
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -34,6 +63,47 @@
 #giallo {
     background-color: yellow;
 }
+
+.scarpa {
+    position: absolute;
+    height: 300px;
+    width: 500px;
+    object-fit:cover;
+    /* background-color: grey;   */
+    text-align: center; 
+    left: 50%;
+    top: 50%; 
+    transform: translate(-50%,-50%);
+}
+
+#sneaker , #allstar , #vans{
+    height: 300px;
+    width: 500px;
+}
+
+.testo{
+    padding-top: 20px;
+    height: 50px;
+    width: 500px;
+    color: yellow;
+    text-transform: uppercase; 
+    font-size: 25px;
+}
+
+.testo-verde{
+    color: green;
+    padding-top: 20px;
+    height: 50px;
+    width: 500px;
+    text-transform: uppercase; 
+    font-size: 25px;
+}
+
+
+
+
+
+
 
 /* *****footer***** */
 
